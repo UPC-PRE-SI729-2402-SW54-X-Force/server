@@ -65,7 +65,73 @@
           "urlImage": "https://www.breveteya.pe/wp-content/uploads/2023/10/como-saque-mi-licencia-de-conducir-a1-en-solo-2-dias.jpg"
         }
       ]
-    }
+    },
+    {
+      "id": 4,
+      "name": "Anderson Díaz",
+      "age": 32,
+      "email": “andersn22@example.com",
+      "address": “Lurin”,
+      "pfp": “https://miro.medium.com/v2/resize:fit:1024/1*BEY7PZ3z0p6hxKLjYRdyvw.png”,
+      "joined": "2022-01-01",
+      "license": [
+        {
+          "id": "14146539",
+          "surname": “Diaz”,
+          "name": “Anderson”,
+          "licenseNumber": "Q14145563”,
+          "class": "A",
+          "expirationDate": "2028-02-01",
+          "emitionDate": "2022-02-01",
+          "category": "A2",
+          "urlImage": "https://www.breveteya.pe/wp-content/uploads/2023/10/como-saque-mi-licencia-de-conducir-a1-en-solo-2-dias.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nicolás Davila",
+      "age": null,
+      "email": "placeholder@example.com",
+      "address": "Unknown",
+      "pfp": "",
+      "joined": "2022-01-02",
+      "license": [
+        {
+          "id": "14141763”,
+          "surname": “Davila”,
+          "name": “Nicolas”,
+          "licenseNumber": "Q14145006”,
+          "class": "A",
+          "expirationDate": "2026-02-01",
+          "emitionDate": "2020-02-01",
+          "category": "A2",
+          "urlImage": "https://www.breveteya.pe/wp-content/uploads/2023/10/como-saque-mi-licencia-de-conducir-a1-en-solo-2-dias.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sebastián Ramírez",
+      "age": null,
+      "email": "placeholder@example.com",
+      "address": "Unknown",
+      "pfp": "",
+      "joined": "2022-01-03",
+      "license": [
+        {
+          "id": "14143009”,
+          "surname": “Ramirez”,
+          "name": “Sebastian”,
+          "licenseNumber": "Q14142785”,
+          "class": "A",
+          "expirationDate": "2025-02-01",
+          "emitionDate": "2019-02-01",
+          "category": "A2",
+          "urlImage": "https://www.breveteya.pe/wp-content/uploads/2023/10/como-saque-mi-licencia-de-conducir-a1-en-solo-2-dias.jpg"
+        }
+      ]
+    },
   ],
   "resources": [
     {
@@ -93,15 +159,13 @@
       "url": "http://transparencia.mtc.gob.pe/idm_docs/normas_legales/1_1_56.pdf"
     }
   ],
-  "offers": [
+  "vehicles": [
     {
       "id": 1,
-      "owner": "Anderson Díaz",
-      "car": {
-        "model": "Honda Creta",
-        "year": 2022,
-        "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png"
-      },
+      "user_id": 1,
+      "model": "Honda Creta",
+      "year": 2022,
+      "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png",
       "title": "Title 1",
       "subtitle": "Subtitle 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
@@ -109,12 +173,10 @@
     },
     {
       "id": 2,
-      "owner": "Nicolás Davila",
-      "car": {
-        "model": "Subaru Outback",
-        "year": 2021,
-        "image": "https://i.postimg.cc/ncpgVs3w/car-2.png"
-      },
+      "user_id": 2,
+      "model": "Subaru Outback",
+      "year": 2021,
+      "image": "https://i.postimg.cc/ncpgVs3w/car-2.png",
       "title": "Title 2",
       "subtitle": "Subtitle 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
@@ -122,12 +184,10 @@
     },
     {
       "id": 3,
-      "owner": "Sebastián Ramírez",
-      "car": {
-        "model": "Honda Creta",
-        "year": 2022,
-        "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png"
-      },
+      "user_id": 3,
+      "model": "Honda Creta",
+      "year": 2022,
+      "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png",
       "title": "Title 3",
       "subtitle": "Subtitle 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
@@ -135,40 +195,34 @@
     },
     {
       "id": 4,
-      "owner": "Sebastián Ramírez",
-      "car": {
-        "model": "Subaru Outback",
-        "year": 2021,
-        "image": "https://i.postimg.cc/ncpgVs3w/car-2.png"
-      },
+      "user_id": 4,
+      "model": "Subaru Outback",
+      "year": 2021,
+      "image": "https://i.postimg.cc/ncpgVs3w/car-2.png",
       "title": "Title 4",
       "subtitle": "Subtitle 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
       "status": "Enabled"
-    },
+    }
     {
       "id": 5,
-      "owner": "Nicolás Davila",
-      "car": {
-        "model": "Subaru Outback",
-        "year": 2021,
-        "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png"
-      },
-      "title": "Title 5",
-      "subtitle": "Subtitle 5",
+      "user_id": 5,
+      "model": "Honda Creta",
+      "year": 2022,
+      "image": "https://i.postimg.cc/Gpt1LBm1/car-1.png",
+      "title": "Title 3",
+      "subtitle": "Subtitle 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
       "status": "Enabled"
     },
     {
       "id": 6,
-      "owner": "Anderson Díaz",
-      "car": {
-        "model": "Honda Creta",
-        "year": 2022,
-        "image": "https://i.postimg.cc/ncpgVs3w/car-2.png"
-      },
-      "title": "Title 6",
-      "subtitle": "Subtitle 6",
+      "user_id": 6,
+      "model": "Subaru Outback",
+      "year": 2021,
+      "image": "https://i.postimg.cc/ncpgVs3w/car-2.png",
+      "title": "Title 4",
+      "subtitle": "Subtitle 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
       "status": "Enabled"
     }
